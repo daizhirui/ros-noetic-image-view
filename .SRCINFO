@@ -1,7 +1,7 @@
 pkgbase = ros-noetic-image-view
 	pkgdesc = ROS - A simple viewer for ROS image topics.
-	pkgver = 1.16.0
-	pkgrel = 2
+	pkgver = 1.17.0
+	pkgrel = 1
 	url = https://wiki.ros.org/image_view
 	arch = i686
 	arch = x86_64
@@ -38,7 +38,7 @@ pkgbase = ros-noetic-image-view
 	depends = gtk2
 	depends = gtk3
 	depends = qt5-base
-	source = ros-noetic-image-view-1.16.0.tar.gz::https://github.com/ros-perception/image_pipeline/archive/1.16.0.tar.gz
-	sha256sums = 310004d402930a059bb2c4811301e6f8aabc517143d094662de7e047e6e2b429
+	source = ros-noetic-image-view-1.17.0.tar.gz::https://github.com/ros-perception/image_pipeline/archive/69488e6e455d97c2deaf924234aa5f87b83cfda8.tar.gz
+	sha256sums = f833d69491a2b4988bafa1e4d74b539486853ddd9f184506d7e2c61e1b03fa85
 
 pkgname = ros-noetic-image-view

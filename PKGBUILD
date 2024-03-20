@@ -2,9 +2,9 @@ pkgdesc="ROS - A simple viewer for ROS image topics."
 url='https://wiki.ros.org/image_view'
 
 pkgname='ros-noetic-image-view'
-pkgver='1.16.0'
+pkgver='1.17.0'
 arch=('i686' 'x86_64' 'aarch64' 'armv7h' 'armv6h')
-pkgrel=2
+pkgrel=1
 license=('BSD')
 
 ros_makedepends=(
@@ -50,9 +50,10 @@ depends=(
        qt5-base
 )
 
-_dir="image_pipeline-${pkgver}/image_view"
-source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-perception/image_pipeline/archive/${pkgver}.tar.gz")
-sha256sums=('310004d402930a059bb2c4811301e6f8aabc517143d094662de7e047e6e2b429')
+_commit="69488e6e455d97c2deaf924234aa5f87b83cfda8"
+_dir="image_pipeline-${_commit}/image_view"
+source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-perception/image_pipeline/archive/${_commit}.tar.gz")
+sha256sums=('f833d69491a2b4988bafa1e4d74b539486853ddd9f184506d7e2c61e1b03fa85')
 
 build() {
 	# Use ROS environment variables.
